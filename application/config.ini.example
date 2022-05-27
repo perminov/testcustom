@@ -1,0 +1,42 @@
+[general]
+domain = custom.local
+seoUri = false
+title = false
+
+[db]
+adapter = mysql
+cache = false
+host = localhost
+username = custom
+password = custom
+dbname   = custom
+cfgField = true
+
+[lang]
+front = ru
+admin = en
+gapi.key =
+
+[view]
+scriptPath = application/views
+
+[upload]
+path = data/upload
+
+[ckeditor]
+key = 
+uploadPath = fck
+
+[ws]
+enabled = true
+realtime = true
+host = localhost
+port = 8888
+log = true
+
+[rabbitmq]
+enabled = true
+host = localhost
+port = 5672
+user = guest
+pass = guest
